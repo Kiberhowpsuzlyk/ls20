@@ -1,0 +1,78 @@
+body {
+    color: rgb(51, 51, 51);
+    background-color: rgb(234, 234, 234);
+    margin: 0;
+}
+
+.d-block {
+    display: block;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    width: 100%;
+}
+
+.bg-image {
+    background-image: url("../img/background-image.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.btn {
+    background-color: gray;
+    cursor: pointer;
+    transition: .5s;
+    border-color: white;
+    border-radius: 4px;
+    animation: example 2s infinite;
+}
+
+.btn:hover {
+    background-color: blue;
+    border-color: gray;
+    box-shadow: 1px 1px 10px blue;
+}
+
+.btn:active {
+    background-color: red;
+    border-color: gray;
+    box-shadow: 1px 1px 10px red;
+}
+
+.lh-1 {
+    line-height: 1.5;
+}
+
+.trans:hover {
+    transform: scale(1.1);
+    transition: .6s;
+    cursor: pointer;
+}
+
+.grayscale:hover {
+    filter: grayscale(100%);
+}
